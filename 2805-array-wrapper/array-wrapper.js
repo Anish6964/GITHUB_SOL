@@ -12,7 +12,7 @@ var ArrayWrapper = function(nums) {
  */
 ArrayWrapper.prototype.valueOf = function() {
     return this.nums.reduce (
-        (n,a) => n + a , 0
+        (number,accum) => number + accum , 0
     ) 
 }
 
